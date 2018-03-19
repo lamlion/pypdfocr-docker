@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 MAINTAINER Markus Matiaschek <mmatiaschek@ai-ag.de>
 
-ENV T_LANG deu
+ENV T_LANG nld
 
 RUN locale-gen en_US.UTF-8  
 ENV LANG en_US.UTF-8  
